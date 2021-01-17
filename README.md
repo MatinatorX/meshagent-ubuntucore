@@ -27,8 +27,6 @@ If using an older version of Ubuntu Core, you may have to install with apt:
 
 `apt install snapcraft`
 
-Copy the source folders somewhere, such as your home directory.
+Copy the source somewhere, such as your home directory.
 
-Edit line 22 of `/meshsnap/snapcraft.yaml` to point to where you copied the /meshsource/ folder.
-
-Run `snapcraft` within the /meshsnap/ directory to build. The snap file will output to the same directory.
+Run `snapcraft` in source directory to build. The snap file will output to the same directory.
