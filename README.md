@@ -12,7 +12,9 @@ To install:
 
 To configure, call the snap while passing the URL and the MeshID as arguments. These can be found in the Linux/BSD section of the "Add Agent" option on your MeshCentral website. For example:
 
-`meshagent-ubuntucore https://meshcentral.com 'fDPvApR25JcO0rNaOQu7YzWBuYwu5ydmvKjWCT@U9e27IZrD7EE9tAMUObzBwORK'`
+```
+meshagent-ubuntucore https://meshcentral.com 'fDPvApR25JcO0rNaOQu7YzWBuYwu5ydmvKjWCT@U9e27IZrD7EE9tAMUObzBwORK'
+```
 
 ## Building the Snap
 
