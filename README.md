@@ -3,7 +3,7 @@
 Adds a MeshCentral agent for remote access to Ubuntu Core devices. Requires devmode and beta options due to the permissions required by the meshagent binary. As such, YOU INSTALL THIS AT YOUR OWN RISK.
 
 To install:
-`sudo snap install meshagent --beta --devmode`
+`sudo snap install meshagent-ubuntucore --beta --devmode`
 
 MeshCentral is developed by the supremely talented Ylian Saint-Hilaire. This snap was developed independently to allow meshagents to run on Ubuntu Core devices such as the Dell Edge gateways 3001.
 
