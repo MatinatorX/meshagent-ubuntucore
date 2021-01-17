@@ -10,3 +10,25 @@ MeshCentral is developed by the supremely talented Ylian Saint-Hilaire. This sna
 To configure, call meshagent while passing the URL and the MeshID. These can be found in the Linux/BSD section of the "Add Agent" option on your MeshCentral website. For example:
 
 `meshagent https://meshcentral.com 'fDPvApR25JcO0rNaOQu7YzWBuYwu5ydmvKjWCT@U9e27IZrD7EE9tAMUObzBwORK'`
+
+## Building the Snap
+
+If building on an Ubuntu Core device, you will have to install the classic snap first, then enter the classic snap shell.
+
+`sudo snap install classic --beta --devmode`
+
+`classic`
+
+Then, install snapcraft:
+
+`sudo snap install snapcraft`.
+
+If using an older version of Ubuntu Core, you may have to install with apt:
+
+`apt install snapcraft`
+
+Copy the source folders somewhere, such as your home directory.
+
+Edit line 22 of `/meshsnap/snapcraft.yaml` to point to where you copied the /meshsource/ folder.
+
+Run `snapcraft` within the /meshsnap/ directory to build. The snap file will output to the same directory.
