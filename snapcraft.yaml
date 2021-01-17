@@ -1,5 +1,5 @@
 name: meshagent-ubuntucore
-version: '0.2'
+version: '0.3'
 summary: MeshCentral Agent for Ubuntu Core
 description: |
   Adds a MeshCentral agent for remote access to Ubuntu Core devices.
