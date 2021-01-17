@@ -1,0 +1,23 @@
+name: meshagent
+version: '0.1'
+summary: MeshCentral Agent
+description: |
+  Adds a MeshCentral agent for remote access.
+confinement: devmode
+grade: stable
+
+apps:
+  meshagent:
+    command: meshinstall.sh
+        
+  meshagent-service:
+    command: meshservice.sh
+    daemon: simple
+    restart-condition: always
+    passthrough:
+      restart-delay: 5s
+
+parts:
+  meshagent:
+    source: meshsource/
+    plugin: dump
