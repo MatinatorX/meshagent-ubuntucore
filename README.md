@@ -7,6 +7,7 @@ MeshCentral is developed by the very talented Ylian Saint-Hilaire. This unoffici
 https://meshcentral.com/info/
 
 To install:
+
 `sudo snap install meshagent-ubuntucore --beta --devmode`
 
 To configure, call the snap while passing the URL and the MeshID as arguments. These can be found in the Linux/BSD section of the "Add Agent" option on your MeshCentral website. For example:
