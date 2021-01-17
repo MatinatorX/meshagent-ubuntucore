@@ -8,7 +8,9 @@ https://meshcentral.com/info/
 
 To install:
 
-`sudo snap install meshagent-ubuntucore --beta --devmode`
+```
+sudo snap install meshagent-ubuntucore --beta --devmode
+```
 
 To configure, call the snap while passing the URL and the MeshID as arguments. These can be found in the Linux/BSD section of the "Add Agent" option on your MeshCentral website. For example:
 
@@ -20,17 +22,22 @@ meshagent-ubuntucore https://meshcentral.com 'fDPvApR25JcO0rNaOQu7YzWBuYwu5ydmvK
 
 If building on an Ubuntu Core device, you will have to install the classic snap first, then enter the classic snap shell.
 
-`sudo snap install classic --beta --devmode`
-
-`classic`
+```
+sudo snap install classic --beta --devmode
+classic
+```
 
 Then, install snapcraft:
 
-`sudo snap install snapcraft`.
+```
+sudo snap install snapcraft
+```
 
 If using an older version of Ubuntu Core, you may have to install with apt:
 
-`apt install snapcraft`
+```
+apt install snapcraft
+```
 
 Copy the source somewhere, such as your home directory.
 
