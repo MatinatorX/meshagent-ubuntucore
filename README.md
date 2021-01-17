@@ -2,7 +2,7 @@
 
 Adds a MeshCentral agent for remote access to Ubuntu Core devices. Requires devmode and beta options due to the permissions required by the meshagent binary. As such, YOU INSTALL THIS AT YOUR OWN RISK.
 
-MeshCentral is developed by the very talented Ylian Saint-Hilaire. This unofficial snap was created to allow MeshCentral agents to run on Ubuntu Core devices such as the Dell Edge Gateway 3001. Please visit the MeshCentral website for more information:
+MeshCentral is developed by the very talented Ylian Saint-Hilaire. This unofficial snap was created to allow MeshCentral agents to run on Ubuntu Core devices such as the Dell Edge Gateway 3001. Please visit the main website for more information about MeshCentral:
 
 https://meshcentral.com/info/
 
